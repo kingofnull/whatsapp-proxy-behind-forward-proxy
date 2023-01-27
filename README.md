@@ -11,7 +11,7 @@ Its as easy way to run whatsapp proxy. Unfortunatly whatsapp proxy has no passwo
 
 - run `run.sh`
 
-- replace {public_ip} in `proxy_config.cfg` whith your external ip that should accessible by your client.
+- replace `{public_ip}` in `proxy_config.cfg` with your external ip that should be accessible by your client.
 
 - add  your external ip as proxy whitout port to your whatsapp client.
 
