@@ -16,11 +16,15 @@ socks5 	127.0.0.1 9050`
 
 3) replace `{public_ip}` in `proxy_config.cfg` with your external ip that should be accessible by your client.
 
-3) run `run.sh`
+4) run `run-with-proxychains.sh`
+
 
 
 5) add  your external ip as proxy whitout port to your whatsapp client.
 
-Note : haproxy binds lots of port be sure they are free before run the script : 8199 , 80 , 8080 , 443 , 8443 , 5222 , 8222
+Note : Haproxy binds lots of port be sure they are free before run the script : 8199 , 80 , 8080 , 443 , 8443 , 5222 , 8222
+
+## Run wthout Proxychains
+If you have direct access to Whatsapp servers (like a VPS) , Just skip steps 3 and 4 and run `run-directly.sh`.
 
 
